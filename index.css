@@ -1,0 +1,28 @@
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body, html {
+  height: 100%;
+}
+
+.homepage {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  text-align: center;
+  list-style-type: none;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+
+li {
+  margin: 100px;
+}
+
+li a {
+  text-decoration: none;
+  font-style: normal;
+  color: black;
+}
